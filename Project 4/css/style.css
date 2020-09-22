@@ -1,0 +1,48 @@
+.section1{
+	background: #E5E000;
+	width:1440px;
+	height: 200px;
+	line-height: 200px;
+	font-family: 'Baloo Tammudu 2', cursive;
+	color: #FFFFFF
+}
+
+.section2{
+	width: 1440px;
+	height: 1080px;
+	background-image: url(../img/eyes.png);
+}
+
+.nav{
+	width:1440px;
+	height:100px;
+	background: #E5E000;
+	line-height: 100px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+.text p{
+	font-family: 'Mukta', sans-serif;
+}
+
+.section4{
+	width:1440px;
+	height:200px;
+	background-color: #E5E000;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: 80px 77px;
+}
+
+.section4 h2{
+	text-align: right;
+	font-family: 'Baloo Tammudu 2', cursive;
+	color: #FFFFFF;
+	line-height: 200px;
+}
+
