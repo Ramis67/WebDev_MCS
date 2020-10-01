@@ -1,0 +1,60 @@
+@import url(reset.css);
+
+.page{
+	
+	box-sizing: border-box;
+}
+
+.header, .footer{
+	height: 60px;
+	background-color: #FE1A19;
+}
+
+h1{
+	color: white;
+	line-height: 60px;
+	margin-left: 20px;
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+.one, .two, .three{
+	height: 800px;
+	width: 400px;
+	border: 5px solid #E5E000;
+	display: inline-block;
+	border-radius: 30px;
+}
+
+.one{
+	margin-left: 70px;
+	margin-top: 112px;
+	margin-bottom: 112px;
+}
+
+.two{
+	margin: 112px 50px;
+	display: inline-block;
+}
+
+.three{
+	
+	margin-top:112px;
+	margin-bottom: 112px;
+	display: inline-block;
+}
+
+p{
+	font-family: Times New Roman;
+	font-size: 20px;
+	margin:97px 33px 33px;
+}
+
+h2{
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 33px;
+	margin-right: 160px;
+	margin-left:33px;
+}
