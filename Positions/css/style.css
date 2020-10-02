@@ -18,33 +18,27 @@ h1{
 	font-size: 20px;
 }
 
+.mainly{
+	text-align: center;
+}
+
 .one, .two, .three{
 	height: 800px;
 	width: 400px;
 	border: 5px solid #E5E000;
 	display: inline-block;
 	border-radius: 30px;
-}
-
-.one{
-	margin-left: 70px;
 	margin-top: 112px;
 	margin-bottom: 112px;
 }
 
+
 .two{
 	margin: 112px 50px;
-	display: inline-block;
 }
 
-.three{
-	
-	margin-top:112px;
-	margin-bottom: 112px;
-	display: inline-block;
-}
 
-p{
+.composition{
 	font-family: Times New Roman;
 	font-size: 20px;
 	margin:97px 33px 33px;
