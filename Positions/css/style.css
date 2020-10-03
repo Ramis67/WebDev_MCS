@@ -38,10 +38,11 @@ h1{
 }
 
 
-.composition{
+p{
 	font-family: Times New Roman;
 	font-size: 20px;
-	margin:97px 33px 33px;
+	text-align: left;
+	margin:41px 33px 33px;
 }
 
 h2{
