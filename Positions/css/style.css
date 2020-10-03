@@ -1,21 +1,24 @@
 @import url(reset.css);
 
+html{
+	font-size: 10px;
+}
+
 .page{
-	
 	box-sizing: border-box;
 }
 
 .header, .footer{
-	height: 60px;
+	height: 6rem;
 	background-color: #FE1A19;
 }
 
 h1{
 	color: white;
-	line-height: 60px;
-	margin-left: 20px;
+	line-height: 6rem;
+	margin-left: 2rem;
 	font-family: Helvetica;
-	font-size: 20px;
+	font-size: 2rem;
 }
 
 .mainly{
@@ -23,35 +26,41 @@ h1{
 }
 
 .one, .two, .three{
-	height: 800px;
-	width: 400px;
-	border: 5px solid #E5E000;
+	height: 80rem;
+	width: 40rem;
+	border: 0.5rem solid #E5E000;
 	display: inline-block;
-	border-radius: 30px;
-	margin-top: 112px;
-	margin-bottom: 112px;
+	border-radius: 3rem;
+	margin-top: 11.2rem;
+	margin-bottom: 11.2rem;
 	box-sizing: border-box;
+	text-align: left;
 }
-
 
 .two{
-	margin: 112px 50px;
-}
-
-
-p{
-	font-family: Times New Roman;
-	font-size: 20px;
-	text-align: left;
-	margin:41px 33px 33px;
-	line-height:23px;
+	margin: 11.2rem 5rem;
 }
 
 h2{
 	font-family: Helvetica;
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: bold;
-	text-align: left;
-	margin-top: 33px;
-	margin-left:33px;
+	margin-top: 3.3rem;
+	margin-left:3.3rem;
+}
+
+h3, .list{
+	font-family: Times New Roman;
+	font-size: 2rem;
+}
+
+h3{
+	text-transform: uppercase;
+	margin-left: 3.3rem;
+	margin-top: 4.1rem;
+}
+
+.list{
+	margin:0 3.3rem 3.3rem;
+	line-height:2.1rem;
 }
