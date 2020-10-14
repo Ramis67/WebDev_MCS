@@ -1,0 +1,166 @@
+/*@import url(reset.css);*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page{
+	width: 144rem;
+}
+
+body{
+	font-family: 'Sansita Swashed', cursive;
+    font-size: 2rem;
+    line-height: 2rem;
+    color:black;
+}
+
+html{
+	font-size: 10px;
+}
+
+.header{
+	height: 14rem;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 4rem;
+	color:#E50043;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.heading{
+	position: absolute;
+	left:5rem; /*тут получилось через
+	position выставить а в footer
+	только через margin*/
+}
+
+a{
+	height: 5rem;
+	text-decoration: none;
+	color:#E50043;
+}
+
+.links{
+	position: absolute;
+	right: 5rem; /*тут получилось через
+	position выставить а в footer
+	только через margin*/
+}
+
+.mainly{
+	display:flex;
+	justify-content:center;
+	position: relative;
+}
+
+.one{
+	width: 144rem;
+	height: 95rem;
+	background-image: url(../img/evian_origins_logo.png);
+}
+
+.two{
+	width: 104rem;
+	height: 28rem;
+	border: 0.3rem solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 2rem;
+	font-family: Arial;
+	font-size: 2.5rem;
+	line-height: 2.9rem;
+	position:absolute; /*почему когда убираю
+	position все рушится, если выставил все
+	через margin?*/
+	margin:110rem auto;
+}
+
+.name, .text{
+	margin:2.4rem;
+}
+
+.three{
+	width: 144rem;
+	display:flex;
+	position:absolute;
+	left:20rem;
+	top:153rem;
+}
+
+.wang{
+	width: 28.1rem;
+	height: 86.3rem;
+	background-image: url(../img/wang.png);
+}
+
+.blue{
+	width: 27.3rem;
+	height: 86.3rem;
+	background-image: url(../img/blue.png);
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+
+.chiara{
+	width: 28.1rem;
+	height: 86.3rem;
+	background-image: url(../img/chiara.png);
+}
+
+.bottle p{
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	margin-top:91.1rem;
+}
+
+.four{
+	width: 1040px;
+	height: 280px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+	position:absolute;
+	top:264.9rem;
+	background-image: url(../img/glass.png);
+	/*background-size:10.1rem 22rem;*/
+	background-repeat:no-repeat;
+	background-position: 8rem 3rem;
+	display:flex;
+}
+
+.four p{
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	align-items: center;
+	letter-spacing: 0.05em;
+	margin: 3rem 3rem 3rem 26.1rem;
+}
+
+.footer{
+	width: 1440px;
+	height: 140px;
+	background: #F8BFC7;
+	display:flex;
+	align-items: center;
+	position:absolute;
+	top:321.9rem;
+}
+
+.copyright{
+	font-family: Arial;
+	font-size: 50px;
+	margin-left:5rem;
+}
+
+

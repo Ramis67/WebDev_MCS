@@ -1,0 +1,33 @@
+1. Как записать в CSS элемент с несколькими классами (например .main и .second)?
+А) .main.second
+Б) .main+.second
+В) .main .second
+Г) .main/\.second
+
+2. <ul>
+	<li>Hello</li>
+	<li class="Hi">Hi</li>
+	<li>Good morning</li>
+	<li>Good afternoon</li>
+   </ul>
+   Какие элементы списка окрасятся в красный, если в CSS задать:
+   .Hi ~ li {
+   color: red
+   }
+   ?
+А) Hi
+Б) Good morning
+В) Good morning, Good afternoon
+Г) Hello, Hi
+
+3. С помощью каких символов ставятся комментарии в HTML?
+А) /*...*/
+Б) <!--...-->
+В) [...]
+Г) (...)
+
+4. Чем больше z-index элемента, 
+А) тем дальше от нас элемент
+Б) тем левее находится элемент
+В) тем выше находится элемент
+Г) тем ближе к нам элемент
