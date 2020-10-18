@@ -24,6 +24,8 @@ html{
 }
 
 .header{
+	background-color: white;
+	width: 144rem;;
 	height: 14rem;
 	font-family: Arial;
 	font-style: normal;
@@ -31,7 +33,7 @@ html{
 	font-size: 4rem;
 	color:#E50043;
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 	align-items: center;
 	position: fixed;
 	z-index: 1;
@@ -48,7 +50,7 @@ a{
 }
 
 .links{
-	margin-left: 95rem;
+	margin-right: 5rem;
 }
 
 .link2{
@@ -87,13 +89,18 @@ a{
 	box-sizing: border-box;
 	border-radius: 2rem;
 	margin-top:15rem;
+	padding:2.4rem;	
 }
 
-.text{
-	margin:2.4rem;
+.twotext {
 	font-family: Arial;
 	font-size: 2.5rem;
 	line-height: 2.9rem;
+	font-weight: normal;
+}
+
+.two p{
+	margin-top:2.5rem;
 }
 
 .three{
@@ -141,15 +148,25 @@ a{
 	background-repeat:no-repeat;
 	background-position: 8rem 3rem;
 	margin-top: 25.6rem;
+	padding: 3rem 3rem 8rem 3rem;
 }
 
-.four p{
+.fourtext {
 	font-family: Arial;
-	font-size: 25px;
-	line-height: 29px;
+	font-size: 2.5rem;
+	line-height: 2.9rem;
 	align-items: center;
 	letter-spacing: 0.05em;
-	margin: 3rem 3rem 3rem 26.1rem;
+	font-weight: normal;
+	margin-left:26.1rem;
+}
+
+.four h2{
+	margin-bottom: 2.5rem;
+}
+
+.texttheend {
+	margin-top: 2.5rem;
 }
 
 .footer{
