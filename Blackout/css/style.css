@@ -51,7 +51,7 @@ body{
 	padding-top: 340px;
 	opacity:1;
 	transition-property: opacity;
-	transition-duration: 1.2s;
+	transition-duration: 1s;
 	transition-timing-function: ease-in-out;
 }
 
