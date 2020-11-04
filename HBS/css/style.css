@@ -1,0 +1,107 @@
+/*@import url(reset.css);*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page{
+	width: 144rem;
+}
+
+body{
+	font-family: 'Sansita Swashed', cursive;
+    font-size: 2rem;
+    line-height: 2rem;   
+    color:black;
+}
+
+html{
+	font-size: 10px;
+}
+
+.page{
+	width: 100vw;
+}
+
+.haupt{
+	height: 16rem;
+	background-color: #FEB700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text{
+	font-family: Times New Roman;
+	font-size: 5rem;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 5.7rem;
+}
+
+.mainly{
+	height: 100% /*calc(100% - 32rem)*/;
+	display:flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 7rem;
+}
+
+.column{
+	width: calc((100% - 10rem)/3);
+	border: 1px solid #000000;
+}
+
+.recepts {
+	font-family: Times New Roman;
+	font-size: 2rem;
+	line-height: 2.3rem;
+	padding: 3rem 3.3rem;
+}
+
+.one{
+	min-height: 187.4rem;
+}
+
+.two{
+	min-height: 192rem;
+}
+
+.three{
+	min-height: 196.6rem;
+}
+
+.list{
+	list-style-type: none;
+}
+
+h2{
+	font-size: 2rem;
+	line-height: 2.3rem;
+}
+
+.ingredients{
+	font-weight: normal;
+}
+
+.imageone{
+	background-image: url(../img/Samosa.png);
+}
+
+.imagetwo{
+	background-image: url(../img/FrozenYogurt.png);
+}
+
+.imagethree{
+	background-image: url(../img/Healthiest.png);
+}
+
+.img{
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%
+}
