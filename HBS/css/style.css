@@ -44,12 +44,13 @@ html{
 	display: flex;
 	justify-content: space-evenly;
 	margin: 7rem 0;
+	align-items: flex-start;
 }
 
 .mainly{
 	display:flex;
 	justify-content: space-between;
-	align-items: flex-start;
+	/*align-items: flex-start;*/
 	/*margin: 7rem;*/
 }
 
@@ -66,7 +67,7 @@ html{
 
 .list{
 	list-style-type: none;
-	margin: 0 3.3rem;
+	margin: 0 3.3rem 3rem 3.3rem;
 }
 
 h2{
