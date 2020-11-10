@@ -8,11 +8,6 @@
     box-sizing: border-box;
 }
 
-.page{
-	/*width: 144rem;*/
-
-}
-
 body{
 	font-family: 'Sansita Swashed', cursive;
     font-size: 2rem;
@@ -22,4 +17,76 @@ body{
 
 html{
 	font-size: 10px;
+}
+
+.header, .footer{
+	height: 10rem;
+	background-color: #0000FF;
+	display: flex;
+	align-items: center;
+}
+
+
+h1{
+	text-align: left;
+	font-family: 'Arial', sans-serif;
+	font-weight: normal;
+	font-size: 2.5rem;
+	color: white;
+	margin-left: 3rem;
+}
+
+.mainly{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	box-sizing: border-box;
+	margin: 10.2rem 14rem;
+}
+
+.border{
+	height: 30rem;
+	width: 60rem;
+	border: 3px solid black;
+	display:flex;
+	align-items: center;
+}
+
+.one, .two{
+	margin-bottom:2rem;
+	
+}
+
+h2{
+	text-align: center;
+	font-family: 'Helvetica', sans-serif;
+	line-height: 6rem;
+	font-size: 5rem;
+}
+
+
+
+@media all and (max-width: 668px) {
+	.mainly{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		box-sizing: border-box;
+		margin: 2rem 2.2rem;
+	}
+
+	.border{
+		height: 16.5rem;
+		width: 33rem;
+	}
+
+	.one, .two, .three{
+		margin-bottom: 4.1rem;
+	}
+
+	h2{
+		line-height: 3rem;
+		font-size: 2.5rem;
+	}
 }
