@@ -37,6 +37,7 @@ h1{
 }
 
 .mainly{
+	max-width: 124rem;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
