@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Versendung</title>
+	<meta charset="utf-8">
+	<meta description="code">
+	<meta keywords="Forms">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="page">
+		<header class="header">
+			<a class="word one" href="Link">Посылка</a>
+			<a class="word two" href="Link">Упаковка</a>
+			<a class="word three" href="Link">Подписка</a>
+			<a class="word four" href="Link">Меню</a>
+		</header>
+		<main class="mainly">
+			<div class="general">
+				<div class="post">
+					<h1>Ваша посылка уже в пути!</h1>
+				</div>
+				<form class="form">
+					<fieldset class="superform">
+						<label for="Name">Name</label>
+						<input type="text" name="Name" placeholder="Введите имя">
+						<label for="City">City</label>
+						<input type="text" name="City" placeholder="Введите название города">
+						<label for="Gift">Gift</label>
+						<input type="text" name="City" placeholder="Выберите подарок">
+						<label for="E-mail">City</label>
+						<input type="email" name="E-mail" placeholder="Введите e-mail">
+						<label for="choose">Delivery</label>
+						<input type="radio" name="choose" value="kurier"> <span>Express</span>
+						<input type="radio" name="choose" value="pochta"><span>Post</span>
+						<label for="pay">How will you pay?</label>
+						<select name="pay">
+							<option value="card">Card</option>
+							<option value="cash">Cash</option>
+							<option value="bitcoin">Bitcoin</option>
+						</select>
+						<input type="checkbox"><span>report of delivery</span>
+						<input type="submit">
+					</fieldset>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<h2>Секретные посылки для друзей</h2>
+			<h2>© 2020</h2>
+		</footer>
+	</div>
+</body>
+</html>

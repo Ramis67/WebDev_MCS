@@ -1,0 +1,158 @@
+/*@import url(reset.css);*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page{
+	/*width: 144rem;*/
+
+}
+
+body{
+	font-family: 'Sansita Swashed', cursive;
+    font-size: 2rem;
+    line-height: 2rem;   
+    color:black;
+}
+
+html{
+	font-size: 10px;
+}
+
+.header, .footer{
+	height: 9rem;
+	width: 100vw;
+	background-color: #F8BFC7;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+a, h2{
+	font-family: Helvetica, sans-serif;
+	font-size: 2.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.one{
+	margin-left: 5rem;
+	margin-right: 3rem;
+}
+
+.two{
+	margin-right: 3rem;
+}
+
+.three{
+	margin-right: 87.4rem;
+}
+
+.mainly{
+	background-color: #336FD1;
+	background-image: url(../img/versendung.png);
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	position: relative;
+}
+
+.general{
+	display: flex;
+	flex-direction: column;
+}
+
+.post{
+	background-color: #336FD1;
+	height: 20rem;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 68rem;
+}
+
+h1{
+	font-family: Helvetica, sans-serif;
+	font-size: 5rem;
+	color: #FEB700;
+	text-transform: uppercase;
+	margin-top: 5rem;
+}
+
+.form{
+	margin-left: 8rem;
+	margin-top: 5rem;
+	position: absolute;
+}
+
+.superform{
+	font-family: Helvetica, sans-serif;
+	background-color: #FF6500;
+	border: 0.2rem solid white;
+	border-radius: 2rem;
+	padding: 2rem;
+}
+
+input, select, label{
+	display: block;
+	width: 25rem;
+
+}
+
+input:focus, select:focus{
+	outline-color: #FEB700;
+}
+
+input, select{
+	font-size: 2rem;
+	border: 0.2rem solid #97DAF2;
+	background-color:#FFD930;
+}
+
+input[type="checkbox"], input[type="radio"]{
+	display: inline-block;
+	width: 2rem;
+	vertical-align: middle;
+}
+
+label, select, span{
+	line-height: 3rem;
+}
+
+input[type="submit"] {
+	border: 0.2rem solid white;
+	border-radius: 1.5rem;
+	background-color: #FFD930;
+	height: 5rem;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #FF6500;
+	color:#FFD930;
+}
+
+
+h2{
+	color: white;
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
