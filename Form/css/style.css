@@ -10,7 +10,6 @@
 
 .page{
 	/*width: 144rem;*/
-
 }
 
 body{
@@ -56,12 +55,17 @@ a, h2{
 	margin-right: 87.4rem;
 }
 
+.four{
+	margin-right: 5rem;
+}
+
 .mainly{
 	background-color: #336FD1;
 	background-image: url(../img/versendung.png);
 	width: 100vw;
+	min-height: calc(100% - 18rem);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: 100% calc(100% - 20rem);
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -92,8 +96,8 @@ h1{
 }
 
 .form{
-	margin-left: 8rem;
 	margin-top: 5rem;
+	margin-left: 8rem;
 	position: absolute;
 }
 
