@@ -8,9 +8,6 @@
     box-sizing: border-box;
 }
 
-.page{
-	/*width: 144rem;*/
-}
 
 body{
 	font-family: 'Sansita Swashed', cursive;
@@ -27,4 +24,296 @@ html{
 	background-color: black;
 	width: 100vw;
 	height: 100vw;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.menu{
+	height: 9rem;
+	width: calc(100% - 890px)/2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+
+.menu a{
+	font-family: Arial, sans-serif;
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.one{
+	color: #5B4327;
+	margin-right: 3rem;
+}
+.two{
+	margin-right: 3rem;
+}
+
+.three{
+	margin-right: 3rem;
+}
+
+.four{
+	margin-right: 3rem;
+}
+
+.five{
+	margin-right: 3rem;
+}
+
+.Meduza{
+	height: 2rem;
+	width: 9.5rem;
+	margin-left: 6rem;
+}
+
+.en{
+	font-family: Arial, sans-serif;
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.righ{
+	margin-right: 6rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.poisk, .razdelitel{
+	margin-left: 2rem;
+}
+
+.poisk{
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+.currency{
+	width: calc(100% - 12rem);
+	height: 5.6rem;
+	background-color: #F2F2F2;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 1rem;
+	margin: auto;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5rem;
+}
+
+.currency span{
+	color:#9CA1A9;	
+}
+
+.val{
+	margin-left: 1.5rem;
+}
+
+.polosa{
+	margin-right: 1.5rem;
+}
+
+.kursiv{
+	margin-right: -2.1rem;
+	z-index: 1;
+}
+
+.kursivpolosa{
+	display: flex;
+	align-items: center;
+}
+
+.ordn{
+	text-transform: uppercase;
+	color: #9CA1A9;
+	margin-right: 1.2rem;
+	margin-left: auto;
+}
+
+.euro{
+	padding-left: 1.5rem;
+}
+
+.haupt{
+	width: calc(100% - 12rem);
+	height: 132rem;
+	background-color: #F2F2F2;
+	margin: 1.5rem auto;
+	border-radius: 1rem 1rem 0 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.vvp{
+	width: calc(100% - 12rem);
+	height: 25rem;
+	background-color: #FFFFFF;
+	border-radius: 1rem;
+	border: 0.5rem solid #A37846;
+	box-sizing: border-box;
+	margin-top: 6rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.vvp h1{
+	font-family: PF Regal Text Pro;
+	margin: 4.5rem auto;
+	line-height: 5rem;
+	text-align: center;
+	font-weight: normal;
+	font-size: 5rem;
+}
+
+.vvp p{
+	text-align: center;
+	font-family: monospace;
+	color:#9CA1A9;
+	margin-bottom: 2.9rem;
+	margin-top: auto;
+	font-size:1.5rem;
+}
+
+.news{
+	width: calc(100% - 12rem);
+	height: 44rem;
+	border: 0.1rem solid #9CA1A9;
+	border-radius: 1rem;
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+	padding: 3rem;
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+}
+
+.newsleft h2{
+	font-family: PF Regal Text Pro, serif;
+	font-size: 3.5rem;
+	line-height: 4rem;
+	font-weight: normal;
+}
+
+.newsright h3{
+	font-family: PF Regal Text Pro, serif;
+	font-size: 2rem;
+	line-height: 2.5rem;
+	font-weight: normal;
+}
+
+.newsright{
+	display:flex;
+	justify-content: space-between;
+	width: calc((100% - 6rem)/2);
+	margin-left: 1.5rem;
+}
+
+.newsleft{
+	width: calc((100% - 6rem)/2);
+	display: flex;
+	flex-direction: column;
+}
+
+
+span{
+	font-family: monospace;
+	color:#9CA1A9;
+	font-size: 1.5rem;
+}
+
+.b, .d{
+	margin-left:5.5rem;
+}
+
+.newsleft span{
+	margin-bottom: 0rem;
+	margin-top: auto;
+}
+
+
+.d span, .c span, .a span, .b span{
+	margin-bottom: auto;
+	margin-top: 3rem;
+}
+
+.a, .b, .c, .d{
+	display:flex;
+	flex-direction: column;
+}
+
+.c, .d{
+	margin-bottom: auto;
+	margin-top: 5rem;
+}
+
+.end{
+	display:flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-top: 5rem;
+}
+
+.end div{
+	width: calc(100% - 70rem)/6;
+}
+
+h4, li, .footer a{
+	color: white;
+	font-family:"Gill Sans", sans-serif;
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+h4{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+}
+
+li{
+	list-style: none;
+}
+
+.footerleft{
+	margin-left: 12rem;
+}
+
+.footerright{
+	margin-right: 12rem;
+}
+
+.imggg{
+	display: flex;
+	flex-direction: column;
+}
+
+.line{
+	margin: 5rem auto;
+}
+
+.imggg p{
+	color: white;
+	font-family:"Gill Sans", sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+	margin-left: 30rem;
+	margin-bottom: 5rem;
+}
+
+.footer a{
+	text-decoration: none;
 }
