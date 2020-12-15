@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+  background-color: #03A350;
+}
+
+.pic{
+  width: 20rem;
+  height: 12rem;
+  padding: 0.5rem;
+}
+
+.imgone, .imgtwo, .imgthree, .imgfour{
+  border: 2px solid #6AF1AB;
+  border-radius: 5px;
+}
+
+.xmas, .footer{
+  font-family: 'Mountains of Christmas', cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+  line-height: 1rem;
+}
+
+.tale{
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+.container{
+  display: grid;
+  margin: 2rem;
+  grid-template-columns: 5fr 5fr 5fr 5fr;
+  grid-template-rows: 5rem;
+  grid-gap: 2rem 2rem;
+  grid-template-areas: 
+    "links xmas xmas .."
+    ".. tale tale .."
+    "imgone imgtwo imgthree imgfour"
+    ".. NY NY ..";
+}
+
+.xmas{
+  grid-area: xmas;
+  place-self: center;
+}
+
+.tale{
+  grid-area: tale;
+  align-self: center;
+  justify-self: center;
+}
+
+.imgone{
+  grid-area: imgone;
+  align-self: center;
+  justify-self: center;
+}
+
+.imgtwo{
+  grid-area: imgtwo;
+  align-self: center;
+  justify-self: center;
+}
+
+.imgthree{
+  grid-area: imgthree;
+  align-self: center;
+  justify-self: center;
+}
+
+.imgfour{
+  grid-area: imgfour;
+  align-self: center;
+  justify-self: center;
+}
+
+.footer{
+  grid-area: NY;
+  place-self: center;
+}
+
+.links{
+  grid-area: links;
+  justify-self: start;
+}
+
+.ul{
+  list-style: none;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+}

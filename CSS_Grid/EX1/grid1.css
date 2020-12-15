@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: [one] 4fr [two] 4fr [three] 4fr [four] 4fr [five];
+  grid-template-rows: 10rem;
+  grid-gap: 2rem 1rem;
+  grid-template-areas: 
+    "posts logo logo menu"
+    ".. cont cont offer"
+    "foot foot foot foot";
+
+}
+
+.logo{
+  grid-area: logo;
+  place-self: center;
+}
+
+.main-menu{
+  grid-area: menu;
+  align-self: center;
+  justify-self: center;
+}
+
+.special-offer{
+  grid-area: offer;
+  align-self: center;
+  justify-self: center;
+}
+
+.content-area{
+  grid-area: cont;
+}
+
+.latest-posts{
+  grid-area: posts;
+}
+
+.footer{
+  grid-area: foot;
+}
+
+/*=== Logo ===*/
+.logo h1 {
+  margin: 0;
+}
+
+.logo__link {
+  color: #324759;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+/*=== End logo ===*/
+
+/*=== Menu ===*/
+.main-menu ul {
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+.main-menu__item {
+  list-style-type: none;
+  margin-right: 1rem;
+}
+
+.main-menu__item a {
+  color: #324759;
+  text-decoration: none;
+}
+
+.main-menu__item a:hover {
+  text-decoration: underline;
+  color: #657A8C;
+}
+/*=== End menu ===*/
+
+/*=== Latest posts ===*/
+.latest-posts {
+  border: 1px solid #657A8C;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.latest-posts h3 {
+  margin-top: 0;
+}
+
+.latest-posts-menu {
+  padding: 0;
+}
+
+.latest-posts-menu__item {
+  list-style-type: none;
+  margin-top: 0.5rem;
+}
+
+.latest-posts-menu__item a {
+  color: #8C764D;
+}
+
+.latest-posts-menu__item a:hover {
+  color: #BFB26F;
+}
+/*=== End latest posts ===*/
+/*=== Main content ===*/
+.content-area h2 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+.content-area p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
