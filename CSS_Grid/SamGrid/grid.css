@@ -46,7 +46,7 @@ body {
   margin: 2rem;
   grid-template-columns: repeat(4, minmax(100px, 5fr));
   grid-template-rows: minmax(100px, auto);
-  grid-gap: 2rem;
+  grid-gap: 1rem 2rem;
   grid-template-areas: 
     "links xmas xmas .."
     ".. tale tale .."
@@ -184,6 +184,7 @@ ul{
     .container{
       grid-template-columns: auto;
       grid-template-rows: auto;
+      grid-gap:;
       grid-template-areas: 
         "xmas"
         "tale"
@@ -198,5 +199,13 @@ ul{
 
     html{
       font-size: 14px;
+    }
+
+    .xmas, .NY{
+      font-size: 1.5rem;
+    }
+
+    .part{
+      grid-gap: 0 2rem;
     }
 }
