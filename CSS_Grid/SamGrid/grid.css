@@ -178,6 +178,14 @@ ul{
         "part"
         "NY";
     }
+
+    .xmas, .NY{
+      font-size: 1.5rem;
+    }
+
+    .part{
+      grid-gap: 0 2rem;
+    }
 }
 
 @media all and (max-width: 576px) {
