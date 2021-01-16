@@ -1,0 +1,189 @@
+/*@import url(reset.css);*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Sansita Swashed', cursive;
+    font-size: 2rem;
+    line-height: 2rem;   
+    color:black;
+}
+
+html{
+	font-size: 10px;
+}
+
+.page{
+	background-color: white;
+	width: 100vw;
+	height: 100vw;
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.supreme{
+	min-width: 20%;
+	min-height: 8rem;
+	background: red;
+	margin: 18rem auto 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.supreme h1{
+	font-family: Arial, sans-serif; 
+	font-size: 6rem;
+	color: white;
+	font-style: italic;
+}
+
+p{
+	padding: 3rem 0;
+	line-height: 3rem;
+}
+
+h3, p, span{
+	font-family: 'Space Mono', monospace;
+	font-weight: lighter;
+	font-size: 2rem;
+}
+
+.of{
+	margin-top:4rem;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.mainly{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.right h2{
+	font-family: 'Space Mono', monospace;
+	font-weight: lighter;
+	font-size: 2.5rem;
+	padding: 2rem 0;
+}
+
+section{
+	width: calc((100% - 45%) / 2);
+	min-height: 40rem;
+}
+
+div span{
+	background-color: red;
+	color: white;
+	margin-top: 2rem;
+}
+
+.left{
+	margin-left: 30rem;
+	margin-top: 6rem;
+}
+
+.right{
+	margin-right: 30rem;
+	margin-top: 3rem;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 10rem;
+}
+
+a{
+	font-family: 'Space Mono', monospace;
+	font-weight: lighter;
+	font-size: 2rem;
+	text-decoration: none;
+	color: black;
+}
+
+.of h3{
+	margin-left: 12rem;
+}
+
+.of .imgarrow{
+	margin-right: 12rem;
+}
+
+
+/**для девайсов**/
+
+@media screen and (max-width: 960px){
+
+.mainly{
+	align-items: center;
+	flex-direction: column;
+}
+
+section{
+	width: 33%;
+	min-height: 40rem;
+}
+
+.left{
+	margin: 6rem 0 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.right{
+	margin: 0;
+}
+
+.footer {
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.of h3{
+	margin-left: 0;
+}
+
+.of .imgarrow{
+	margin-right: 0;
+}
+
+a{
+	padding: 2rem;
+}
+
+.of h3{
+	margin-right: 1rem;
+}
+
+.of .imgarrow{
+	margin-left: 1rem;
+}
+
+.right h2{
+	line-height:1rem;
+}
+
+.of{
+	margin-top:4rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+}

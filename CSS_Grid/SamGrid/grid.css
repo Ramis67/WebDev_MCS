@@ -18,7 +18,7 @@ body {
 }
 
 .pic{
-  width: 100%;
+  max-width: 100%;
   /*height: 12rem;*/
   padding: 0.5rem;
 }
@@ -195,7 +195,6 @@ ul{
     .container{
       grid-template-columns: auto;
       grid-template-rows: auto;
-      grid-gap:;
       grid-template-areas: 
         "xmas"
         "tale"
