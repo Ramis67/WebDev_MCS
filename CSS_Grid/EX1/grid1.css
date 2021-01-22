@@ -27,18 +27,31 @@ body {
 .logo{
   grid-area: logo;
   place-self: center;
+  /*Fallback*/
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  margin:2rem;
 }
 
 .main-menu{
   grid-area: menu;
   align-self: center;
   justify-self: center;
+  /*Fallback*/
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  margin-top:2rem;
 }
 
 .special-offer{
   grid-area: offer;
   align-self: center;
   justify-self: center;
+  /*Fallback*/
+  display: inline-block;
+  width: 45%;
 }
 
 .content-area{
@@ -62,7 +75,7 @@ body {
 }
 
 .one, .two{
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -73,11 +86,15 @@ a{
   text-decoration: none;
   color: #AD221F;
 }
-/*=== Logo ===*/
 
 .img{
-  width: 50%;
+  max-width:200px;
+  max-height: 50%;
 }
+
+/*=== Logo ===*/
+
+
 
 .logo h1 {
   margin: 0;
@@ -167,6 +184,12 @@ a{
   .main-menu ul{
     flex-direction: column;
   }
+
+  .main-menu{
+    display: block;
+    width: 100%;
+  }
+
 }
 
 @media all and (max-width: 768px){
@@ -187,6 +210,12 @@ a{
   .main-menu ul{
     flex-direction: column;
   }
+
+  .main-menu{
+      display: block;
+      width: 100%;
+    }
+
 }
 
 @media all and (max-width: 576px){
@@ -206,4 +235,32 @@ a{
   html{
     font-size: 12px;
   }
+
+  .main-menu{
+    display: block;
+    width: 100%;
+  }
+
+}
+
+@supports (display:grid) {
+
+  .logo, .main-menu, .special-offer{
+    width: auto;
+  }
+
+  .logo{
+    margin:0;
+  }
+
+  .main-menu{
+    margin-top:0;
+  }
+
+  .img{
+    height: auto;
+    width: 100%;
+  }
+
+
 }
